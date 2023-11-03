@@ -1,0 +1,31 @@
+.slid{
+    margin-top: 20px;  
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slid > img{
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.slid button{
+    height: 50px;
+    width: 100px;
+}
+.slid button:hover{
+    cursor: pointer;
+}
+.SlidBtn{
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    top: 505px;
+    width: 1000px; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

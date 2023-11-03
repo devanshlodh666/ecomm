@@ -1,0 +1,150 @@
+
+header {
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    padding: 0 90px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background: #ffffff;
+}
+img{
+    height: 23px;
+}
+.logo > img{
+    height: 65px;
+}
+
+.link{
+    height: 60px;
+}
+
+.link > ul{
+    display: flex; 
+    align-items: center;
+    height: 60px;
+    gap: 70px;
+    position: relative;
+}
+
+
+/* Categories design */
+.categories{
+    display: flex;
+    flex-direction: column; 
+}
+
+.nav2{
+    position: absolute; 
+    top: 40px;
+    left: 48%; 
+}
+.link2{
+display: flex;
+flex-direction: column;
+background: #ffffff;
+box-shadow: 2px  5px 10px rgba(0, 0, 0, 0.388);
+}
+
+.link2 > li{
+    font-family: 'poppins Light'; 
+    font-weight: 600;  
+
+    padding: 10px 20px;
+} 
+
+.link>ul>li:hover{
+    cursor: pointer;
+}
+
+.link2>li:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.091);
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/*  sign design */
+.profile{
+display: flex;
+justify-content: center; 
+align-items: center;  
+}
+
+.profile > ul{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    gap: 30px;
+}
+
+.signIn > img{
+    height: 23px; 
+}
+
+.signIn{
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 24px 8px;
+    gap: 5px; 
+    justify-content: center;
+    background: #00000010;
+    border-radius: 5px;
+}
+.signIn:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.568);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.192);
+}
+
+.nav3{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background:  #ffffff;
+    box-shadow: 2px  5px 10px rgba(0, 0, 0, 0.388);
+}
+.link3 > li{
+    padding: 10px 20px;    
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-weight: 600;  
+    font-family: 'poppins Light'; 
+}
+.link3>li:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.091);
+}
+.link3 img{
+    height: 14px;
+}
+
+.cart{
+    position: relative;
+}
+
+.cartNumber{
+    color: wheat;
+    position: absolute; 
+    top: -5px;
+    left: 8px;
+    font-size: 13px;
+    background: red; 
+    border-radius: 50%; 
+    border: 1px solid wheat;
+}
+
+.cart:hover{
+    cursor: pointer;
+}

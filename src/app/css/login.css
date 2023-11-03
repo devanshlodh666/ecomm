@@ -1,0 +1,49 @@
+.login_main{
+    margin-top: 35px;
+    height: 100vh;
+    display: flex;
+}
+
+.login{
+    background: #FFFFFF;
+    height: 500px;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+
+.login  img {
+    height: 500px;
+    width: 500px;
+}
+
+.right_p{
+    width: 400px;
+    height: 500px;
+    padding: 30px 0;
+}
+
+.right_p > p{
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.login_button{
+    margin-left: 30px;
+    margin-top: 80px;
+    width: 300px;
+}
+
+
+.new_login{
+    margin-left: 30px;
+    margin-top: 150px;
+    color: rgb(38, 38, 228);
+    font-size: 15px;
+}
+
+.new_login:hover{
+    cursor: pointer;
+}

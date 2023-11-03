@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head,body{
+    height: 1000vh;
+    width: 100%;
+    background: #F1F3F6;
+}
+
+.linkUrl{
+    font-family: 'poppins Light'; 
+    font-weight: 600;  
+    text-decoration: none;
+    color: black;
+    /* padding: 10px 20px; */
+}
