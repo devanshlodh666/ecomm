@@ -6,7 +6,16 @@
     justify-content: center;
 }
 
-.slid > img{
+.slid div{
+    width: 1000px;
+}
+.slid div img{
+    height: 500px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* .slid > img{
     height: 500px;
     width: 1000px;
     border-radius: 5px;
@@ -22,10 +31,23 @@
 .SlidBtn{
     position: absolute;
     z-index: 10;
-    height: 100px;
+    height: 100px; 
     top: 505px;
     width: 1000px; 
     display: flex;
     align-items: center;
     justify-content: flex-end;
-}
+
+
+} */
+
+/* 
+<img src={scroll[img].url} alt="." />
+<div className="SlidBtn">
+<button onClick={minus}> 
+<img src="left.svg" alt="" />
+</button> 
+<button onClick={plus}>
+   <img src="right.svg" alt="" />
+</button>
+</div>  */
